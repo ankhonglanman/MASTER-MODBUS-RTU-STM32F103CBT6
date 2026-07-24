@@ -25,7 +25,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "ssd1306.h"
+#include "ssd1306_conf_template.h"
+#include "ssd1306_fonts.h"
+#include "ssd1306_tests.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,6 +104,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+    //HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2);
+    ssd1306_TestAll();
+    //HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

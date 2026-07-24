@@ -14,13 +14,13 @@
 
 _BEGIN_STD_C
 
-#include "ssd1306_conf.h"
+#include "ssd1306_conf_template.h"
 
 
 #if defined(STM32WB)
 #include "stm32wbxx_hal.h"
 #elif defined(STM32F0)
-#include "stm32f0xx_hal.h"
+//#include "stm32f0xx_hal.h"
 #elif defined(STM32F1)
 #include "stm32f1xx_hal.h"
 #elif defined(STM32F4)
