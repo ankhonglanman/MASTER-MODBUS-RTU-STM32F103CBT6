@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/anvu8/Coding/epcb/MASTER-MODBUS-RTU-STM32F103CBT6/build/Debug/cmake_install.cmake",
+		"C:/Users/anvu8/Coding/epcb/MASTER-MODBUS-RTU-STM32F103CBT6/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
