@@ -33,7 +33,8 @@ enable_language(C ASM)
 
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME}
-    Components/es35-sw/Src/crc_16.c)
+
+    )
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
@@ -49,8 +50,9 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Components/ssd1306/Src/ssd1306.c
     Components/ssd1306/Src/ssd1306_tests.c
     Components/ssd1306/Src/ssd1306_fonts.c
-    Components/es35-sw/Src/crc_16.c
+    Components/modbus-rtu/Src/mb_crc16.c
     Core/Src/ssd1306_temp_and_humidity_display.c
+    Components/modbus-rtu/Src/master_func_03.c
 )
 
 # Add include paths
@@ -58,6 +60,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     Components/es35-sw/Inc
     Components/ssd1306/Inc
+    Components/modbus-rtu/Inc
 )
 
 # Add project symbols (macros)

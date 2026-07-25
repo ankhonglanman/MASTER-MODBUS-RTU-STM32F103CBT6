@@ -4,6 +4,6 @@
 #include <stdint.h>
 #include <stddef.h> 
 
-uint16_t mb_crc16(const uint8_t *buf, size_t len);
+uint16_t mb_crc16(const uint8_t *data, size_t len);
 
 #endif 

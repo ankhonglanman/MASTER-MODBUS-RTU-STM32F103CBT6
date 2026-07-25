@@ -1,4 +1,4 @@
-#include "crc_16.h"
+#include "mb_crc16.h"
 
 static uint8_t auchCRCHi[] = {
 0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81,
@@ -42,17 +42,16 @@ static uint8_t auchCRCLo[] = {
 0x40
 };
 
-uint16_t mb_crc16(const uint8_t *buf, size_t len) {
+uint16_t mb_crc16(const uint8_t *data, size_t len) {
     
     uint8_t crcHi = 0xFF;
     uint8_t crcLo = 0xFF;
     uint8_t uIndex;
 
     while (len--) {
-        uIndex = crcHi ^ *buf++;
+        uIndex = crcHi ^ *data++;
         crcHi = crcLo ^ auchCRCHi[uIndex];
         crcLo = auchCRCLo[uIndex];
     }
     return (crcHi << 8 | crcLo);
-    
 };
