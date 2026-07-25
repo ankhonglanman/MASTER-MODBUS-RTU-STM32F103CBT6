@@ -29,6 +29,7 @@
 #include "ssd1306_conf_template.h"
 #include "ssd1306_fonts.h"
 #include "ssd1306_tests.h"
+#include "ssd1306_temp_and_humidity_display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -106,8 +107,9 @@ int main(void)
   {
 
     //HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2);
-    ssd1306_TestAll();
-    //HAL_Delay(1000);
+    //ssd1306_TestAll();
+    ssd1306_temp_and_humidity_display(25.5, 60.0);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

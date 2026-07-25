@@ -50,6 +50,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Components/ssd1306/Src/ssd1306_tests.c
     Components/ssd1306/Src/ssd1306_fonts.c
     Components/es35-sw/Src/crc_16.c
+    Core/Src/ssd1306_temp_and_humidity_display.c
 )
 
 # Add include paths
