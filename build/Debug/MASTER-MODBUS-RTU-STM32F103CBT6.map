@@ -2055,8 +2055,6 @@ Discarded input sections
                 0x00000000       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_MspDeInit
                 0x00000000       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.HAL_UART_Transmit
-                0x00000000      0x116 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Receive
                 0x00000000      0x12e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_IT
@@ -2127,8 +2125,6 @@ Discarded input sections
                 0x00000000       0x3c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAError
                 0x00000000       0x8c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.UART_WaitOnFlagUntilTimeout
-                0x00000000       0xb2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Start_Receive_IT
                 0x00000000       0x72 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Start_Receive_DMA
@@ -3346,19 +3342,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .data          0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .bss           0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .data.auchCRCHi
-                0x00000000      0x100 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .data.auchCRCLo
-                0x00000000      0x100 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .text.mb_crc16
-                0x00000000       0x64 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_info    0x00000000      0x154 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_abbrev  0x00000000       0xae CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_rnglists
-                0x00000000       0x13 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_macro   0x00000000       0x76 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .debug_macro   0x00000000      0xade CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .debug_macro   0x00000000       0x8e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
@@ -3367,12 +3350,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .debug_macro   0x00000000      0x1df CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .debug_macro   0x00000000      0x190 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_line    0x00000000      0x33e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_str     0x00000000     0x419a CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .comment       0x00000000       0x46 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .debug_frame   0x00000000       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
@@ -3490,6 +3467,83 @@ Discarded input sections
  .debug_macro   0x00000000       0x83 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  .debug_macro   0x00000000       0x46 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  .debug_macro   0x00000000       0x4c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .group         0x00000000        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .text          0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .data          0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0xade CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x221 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0xbd CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0xd23 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000     0xe09e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000     0x34a2 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x5bc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x289 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x1cb CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x114 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x1b2 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x27 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x136 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x1bc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x87 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x240 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x140 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000      0x28e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_macro   0x00000000       0x83 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
  .text          0x00000000        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_cos.o)
  .data          0x00000000        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_cos.o)
  .bss           0x00000000        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a(libm_a-sf_cos.o)
@@ -3849,6 +3903,7 @@ LOAD CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd13
 LOAD CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
 LOAD CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
 LOAD CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+LOAD CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 START GROUP
 LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a
@@ -3873,7 +3928,7 @@ LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-e
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x08000110     0x5094
+.text           0x08000110     0x5344
                 0x08000110                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000110      0x378 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
@@ -4084,359 +4139,371 @@ LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-e
  .text.HAL_UART_Init
                 0x08003064       0xa0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                 0x08003064                HAL_UART_Init
+ .text.HAL_UART_Transmit
+                0x08003104      0x116 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003104                HAL_UART_Transmit
+ *fill*         0x0800321a        0x2 
  .text.HAL_UART_IRQHandler
-                0x08003104      0x520 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003104                HAL_UART_IRQHandler
+                0x0800321c      0x520 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800321c                HAL_UART_IRQHandler
  .text.HAL_UART_TxCpltCallback
-                0x08003624       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003624                HAL_UART_TxCpltCallback
+                0x0800373c       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800373c                HAL_UART_TxCpltCallback
  .text.HAL_UART_RxCpltCallback
-                0x08003636       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003636                HAL_UART_RxCpltCallback
+                0x0800374e       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800374e                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08003648       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08003648                HAL_UART_ErrorCallback
+                0x08003760       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003760                HAL_UART_ErrorCallback
  .text.HAL_UARTEx_RxEventCallback
-                0x0800365a       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800365a                HAL_UARTEx_RxEventCallback
+                0x08003772       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003772                HAL_UARTEx_RxEventCallback
+ .text.UART_WaitOnFlagUntilTimeout
+                0x08003788       0xb2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndRxTransfer
-                0x08003670       0xc4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800383a       0xc4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x08003734       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080038fe       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x0800375c       0x9e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08003926       0x9e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x080037fa       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080039c4       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Receive_IT
-                0x0800382a      0x17c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- *fill*         0x080039a6        0x2 
+                0x080039f4      0x17c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x080039a8      0x11c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .text.main     0x08003ac4       0x50 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
-                0x08003ac4                main
+                0x08003b70      0x11c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .text.main     0x08003c8c       0x50 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+                0x08003c8c                main
  .text.SystemClock_Config
-                0x08003b14       0x8a CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
-                0x08003b14                SystemClock_Config
- *fill*         0x08003b9e        0x2 
+                0x08003cdc       0x8a CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+                0x08003cdc                SystemClock_Config
+ *fill*         0x08003d66        0x2 
  .text.HAL_TIM_PeriodElapsedCallback
-                0x08003ba0       0xa0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
-                0x08003ba0                HAL_TIM_PeriodElapsedCallback
+                0x08003d68       0xa0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+                0x08003d68                HAL_TIM_PeriodElapsedCallback
  .text.Error_Handler
-                0x08003c40        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
-                0x08003c40                Error_Handler
+                0x08003e08        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+                0x08003e08                Error_Handler
  .text.MX_GPIO_Init
-                0x08003c4c       0xc4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
-                0x08003c4c                MX_GPIO_Init
+                0x08003e14       0xc4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
+                0x08003e14                MX_GPIO_Init
  .text.MX_I2C1_Init
-                0x08003d10       0x5c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
-                0x08003d10                MX_I2C1_Init
+                0x08003ed8       0x5c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
+                0x08003ed8                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x08003d6c       0x7c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
-                0x08003d6c                HAL_I2C_MspInit
+                0x08003f34       0x7c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
+                0x08003f34                HAL_I2C_MspInit
  .text.MX_TIM1_Init
-                0x08003de8       0xa4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
-                0x08003de8                MX_TIM1_Init
+                0x08003fb0       0xa4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+                0x08003fb0                MX_TIM1_Init
  .text.MX_TIM2_Init
-                0x08003e8c       0x9c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
-                0x08003e8c                MX_TIM2_Init
+                0x08004054       0x9c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+                0x08004054                MX_TIM2_Init
  .text.HAL_TIM_Base_MspInit
-                0x08003f28       0x80 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
-                0x08003f28                HAL_TIM_Base_MspInit
+                0x080040f0       0x80 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+                0x080040f0                HAL_TIM_Base_MspInit
  .text.MX_USART1_UART_Init
-                0x08003fa8       0x54 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
-                0x08003fa8                MX_USART1_UART_Init
+                0x08004170       0x54 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
+                0x08004170                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08003ffc       0xa8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
-                0x08003ffc                HAL_UART_MspInit
+                0x080041c4       0xa8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
+                0x080041c4                HAL_UART_MspInit
  .text.NMI_Handler
-                0x080040a4        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040a4                NMI_Handler
+                0x0800426c        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800426c                NMI_Handler
  .text.HardFault_Handler
-                0x080040ac        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040ac                HardFault_Handler
+                0x08004274        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08004274                HardFault_Handler
  .text.MemManage_Handler
-                0x080040b4        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040b4                MemManage_Handler
+                0x0800427c        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800427c                MemManage_Handler
  .text.BusFault_Handler
-                0x080040bc        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040bc                BusFault_Handler
+                0x08004284        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08004284                BusFault_Handler
  .text.UsageFault_Handler
-                0x080040c4        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040c4                UsageFault_Handler
+                0x0800428c        0x8 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800428c                UsageFault_Handler
  .text.SVC_Handler
-                0x080040cc        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040cc                SVC_Handler
+                0x08004294        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08004294                SVC_Handler
  .text.DebugMon_Handler
-                0x080040d8        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040d8                DebugMon_Handler
+                0x080042a0        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042a0                DebugMon_Handler
  .text.PendSV_Handler
-                0x080040e4        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040e4                PendSV_Handler
+                0x080042ac        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042ac                PendSV_Handler
  .text.SysTick_Handler
-                0x080040f0        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040f0                SysTick_Handler
+                0x080042b8        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042b8                SysTick_Handler
  .text.EXTI9_5_IRQHandler
-                0x080040fc        0xe CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080040fc                EXTI9_5_IRQHandler
- *fill*         0x0800410a        0x2 
+                0x080042c4        0xe CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042c4                EXTI9_5_IRQHandler
+ *fill*         0x080042d2        0x2 
  .text.TIM1_UP_IRQHandler
-                0x0800410c       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800410c                TIM1_UP_IRQHandler
+                0x080042d4       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042d4                TIM1_UP_IRQHandler
  .text.TIM2_IRQHandler
-                0x08004120       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08004120                TIM2_IRQHandler
+                0x080042e8       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042e8                TIM2_IRQHandler
  .text.USART1_IRQHandler
-                0x08004134       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08004134                USART1_IRQHandler
+                0x080042fc       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080042fc                USART1_IRQHandler
  .text.HAL_MspInit
-                0x08004148       0x64 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08004148                HAL_MspInit
- .text._sbrk    0x080041ac       0x6c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
-                0x080041ac                _sbrk
+                0x08004310       0x64 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08004310                HAL_MspInit
+ .text._sbrk    0x08004374       0x6c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
+                0x08004374                _sbrk
  .text.Reset_Handler
-                0x08004218       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
-                0x08004218                Reset_Handler
+                0x080043e0       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
+                0x080043e0                Reset_Handler
  .text.Default_Handler
-                0x08004260        0x2 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
-                0x08004260                RTC_Alarm_IRQHandler
-                0x08004260                EXTI2_IRQHandler
-                0x08004260                TIM1_CC_IRQHandler
-                0x08004260                PVD_IRQHandler
-                0x08004260                EXTI3_IRQHandler
-                0x08004260                EXTI0_IRQHandler
-                0x08004260                I2C2_EV_IRQHandler
-                0x08004260                ADC1_2_IRQHandler
-                0x08004260                SPI1_IRQHandler
-                0x08004260                TAMPER_IRQHandler
-                0x08004260                DMA1_Channel4_IRQHandler
-                0x08004260                USART3_IRQHandler
-                0x08004260                RTC_IRQHandler
-                0x08004260                DMA1_Channel7_IRQHandler
-                0x08004260                CAN1_RX1_IRQHandler
-                0x08004260                TIM4_IRQHandler
-                0x08004260                I2C1_EV_IRQHandler
-                0x08004260                DMA1_Channel6_IRQHandler
-                0x08004260                TIM3_IRQHandler
-                0x08004260                RCC_IRQHandler
-                0x08004260                TIM1_TRG_COM_IRQHandler
-                0x08004260                DMA1_Channel1_IRQHandler
-                0x08004260                Default_Handler
-                0x08004260                EXTI15_10_IRQHandler
-                0x08004260                SPI2_IRQHandler
-                0x08004260                DMA1_Channel5_IRQHandler
-                0x08004260                EXTI4_IRQHandler
-                0x08004260                USB_LP_CAN1_RX0_IRQHandler
-                0x08004260                USB_HP_CAN1_TX_IRQHandler
-                0x08004260                DMA1_Channel3_IRQHandler
-                0x08004260                WWDG_IRQHandler
-                0x08004260                TIM1_BRK_IRQHandler
-                0x08004260                EXTI1_IRQHandler
-                0x08004260                USART2_IRQHandler
-                0x08004260                I2C2_ER_IRQHandler
-                0x08004260                DMA1_Channel2_IRQHandler
-                0x08004260                CAN1_SCE_IRQHandler
-                0x08004260                FLASH_IRQHandler
-                0x08004260                I2C1_ER_IRQHandler
-                0x08004260                USBWakeUp_IRQHandler
+                0x08004428        0x2 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
+                0x08004428                RTC_Alarm_IRQHandler
+                0x08004428                EXTI2_IRQHandler
+                0x08004428                TIM1_CC_IRQHandler
+                0x08004428                PVD_IRQHandler
+                0x08004428                EXTI3_IRQHandler
+                0x08004428                EXTI0_IRQHandler
+                0x08004428                I2C2_EV_IRQHandler
+                0x08004428                ADC1_2_IRQHandler
+                0x08004428                SPI1_IRQHandler
+                0x08004428                TAMPER_IRQHandler
+                0x08004428                DMA1_Channel4_IRQHandler
+                0x08004428                USART3_IRQHandler
+                0x08004428                RTC_IRQHandler
+                0x08004428                DMA1_Channel7_IRQHandler
+                0x08004428                CAN1_RX1_IRQHandler
+                0x08004428                TIM4_IRQHandler
+                0x08004428                I2C1_EV_IRQHandler
+                0x08004428                DMA1_Channel6_IRQHandler
+                0x08004428                TIM3_IRQHandler
+                0x08004428                RCC_IRQHandler
+                0x08004428                TIM1_TRG_COM_IRQHandler
+                0x08004428                DMA1_Channel1_IRQHandler
+                0x08004428                Default_Handler
+                0x08004428                EXTI15_10_IRQHandler
+                0x08004428                SPI2_IRQHandler
+                0x08004428                DMA1_Channel5_IRQHandler
+                0x08004428                EXTI4_IRQHandler
+                0x08004428                USB_LP_CAN1_RX0_IRQHandler
+                0x08004428                USB_HP_CAN1_TX_IRQHandler
+                0x08004428                DMA1_Channel3_IRQHandler
+                0x08004428                WWDG_IRQHandler
+                0x08004428                TIM1_BRK_IRQHandler
+                0x08004428                EXTI1_IRQHandler
+                0x08004428                USART2_IRQHandler
+                0x08004428                I2C2_ER_IRQHandler
+                0x08004428                DMA1_Channel2_IRQHandler
+                0x08004428                CAN1_SCE_IRQHandler
+                0x08004428                FLASH_IRQHandler
+                0x08004428                I2C1_ER_IRQHandler
+                0x08004428                USBWakeUp_IRQHandler
  .text.ssd1306_Reset
-                0x08004262        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x08004262                ssd1306_Reset
- *fill*         0x0800426e        0x2 
+                0x0800442a        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x0800442a                ssd1306_Reset
+ *fill*         0x08004436        0x2 
  .text.ssd1306_WriteCommand
-                0x08004270       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x08004270                ssd1306_WriteCommand
+                0x08004438       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004438                ssd1306_WriteCommand
  .text.ssd1306_WriteData
-                0x080042a0       0x34 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080042a0                ssd1306_WriteData
+                0x08004468       0x34 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004468                ssd1306_WriteData
  .text.ssd1306_Init
-                0x080042d4       0xd4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080042d4                ssd1306_Init
+                0x0800449c       0xd4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x0800449c                ssd1306_Init
  .text.ssd1306_Fill
-                0x080043a8       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080043a8                ssd1306_Fill
+                0x08004570       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004570                ssd1306_Fill
  .text.ssd1306_UpdateScreen
-                0x080043d8       0x50 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080043d8                ssd1306_UpdateScreen
+                0x080045a0       0x50 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x080045a0                ssd1306_UpdateScreen
  .text.ssd1306_DrawPixel
-                0x08004428       0xa4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x08004428                ssd1306_DrawPixel
+                0x080045f0       0xa4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x080045f0                ssd1306_DrawPixel
  .text.ssd1306_WriteChar
-                0x080044cc      0x124 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080044cc                ssd1306_WriteChar
+                0x08004694      0x124 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004694                ssd1306_WriteChar
  .text.ssd1306_WriteString
-                0x080045f0       0x4c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x080045f0                ssd1306_WriteString
+                0x080047b8       0x4c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x080047b8                ssd1306_WriteString
  .text.ssd1306_SetCursor
-                0x0800463c       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x0800463c                ssd1306_SetCursor
+                0x08004804       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004804                ssd1306_SetCursor
  .text.ssd1306_SetContrast
-                0x0800466c       0x26 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x0800466c                ssd1306_SetContrast
- *fill*         0x08004692        0x2 
+                0x08004834       0x26 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x08004834                ssd1306_SetContrast
+ *fill*         0x0800485a        0x2 
  .text.ssd1306_SetDisplayOn
-                0x08004694       0x3c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
-                0x08004694                ssd1306_SetDisplayOn
+                0x0800485c       0x3c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+                0x0800485c                ssd1306_SetDisplayOn
+ .text.mb_crc16
+                0x08004898       0x64 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+                0x08004898                mb_crc16
+ *fill*         0x080048fc        0x4 
  .text.ssd1306_temp_and_humidity_display
-                0x080046d0      0x120 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
-                0x080046d0                ssd1306_temp_and_humidity_display
+                0x08004900      0x120 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+                0x08004900                ssd1306_temp_and_humidity_display
+ .text.master_func_03
+                0x08004a20       0x80 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+                0x08004a20                master_func_03
  .text.snprintf
-                0x080047f0       0x64 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
-                0x080047f0                sniprintf
-                0x080047f0                snprintf
- .text.memmove  0x08004854       0x32 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
-                0x08004854                memmove
- .text.memset   0x08004886       0x10 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
-                0x08004886                memset
- *fill*         0x08004896        0x2 
- .text.__errno  0x08004898        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
-                0x08004898                __errno
+                0x08004aa0       0x64 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
+                0x08004aa0                sniprintf
+                0x08004aa0                snprintf
+ .text.memmove  0x08004b04       0x32 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
+                0x08004b04                memmove
+ .text.memset   0x08004b36       0x10 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x08004b36                memset
+ *fill*         0x08004b46        0x2 
+ .text.__errno  0x08004b48        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+                0x08004b48                __errno
  .text.__libc_init_array
-                0x080048a4       0x48 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
-                0x080048a4                __libc_init_array
+                0x08004b54       0x48 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x08004b54                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080048ec        0x2 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x080048ec                __retarget_lock_acquire_recursive
+                0x08004b9c        0x2 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x08004b9c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080048ee        0x2 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x080048ee                __retarget_lock_release_recursive
- .text.memcpy   0x080048f0       0x1c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
-                0x080048f0                memcpy
- .text._free_r  0x0800490c       0x94 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
-                0x0800490c                _free_r
+                0x08004b9e        0x2 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x08004b9e                __retarget_lock_release_recursive
+ .text.memcpy   0x08004ba0       0x1c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x08004ba0                memcpy
+ .text._free_r  0x08004bbc       0x94 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+                0x08004bbc                _free_r
  .text.sbrk_aligned
-                0x080049a0       0x44 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x08004c50       0x44 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x080049e4       0xf8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x080049e4                _malloc_r
+                0x08004c94       0xf8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x08004c94                _malloc_r
  .text.__malloc_lock
-                0x08004adc        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
-                0x08004adc                __malloc_lock
+                0x08004d8c        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08004d8c                __malloc_lock
  .text.__malloc_unlock
-                0x08004ae8        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
-                0x08004ae8                __malloc_unlock
+                0x08004d98        0xc C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x08004d98                __malloc_unlock
  .text.__ssputs_r
-                0x08004af4       0xc0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x08004af4                __ssputs_r
+                0x08004da4       0xc0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x08004da4                __ssputs_r
  .text._svfprintf_r
-                0x08004bb4      0x1f0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
-                0x08004bb4                _svfiprintf_r
-                0x08004bb4                _svfprintf_r
+                0x08004e64      0x1f0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x08004e64                _svfiprintf_r
+                0x08004e64                _svfprintf_r
  .text._printf_common
-                0x08004da4       0xea C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08004da4                _printf_common
- *fill*         0x08004e8e        0x2 
+                0x08005054       0xea C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08005054                _printf_common
+ *fill*         0x0800513e        0x2 
  .text._printf_i
-                0x08004e90      0x254 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08004e90                _printf_i
- .text._sbrk_r  0x080050e4       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
-                0x080050e4                _sbrk_r
- .text.memchr   0x08005104       0x1c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
-                0x08005104                memchr
+                0x08005140      0x254 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08005140                _printf_i
+ .text._sbrk_r  0x08005394       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                0x08005394                _sbrk_r
+ .text.memchr   0x080053b4       0x1c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+                0x080053b4                memchr
  .text._realloc_r
-                0x08005120       0x5c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
-                0x08005120                _realloc_r
+                0x080053d0       0x5c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
+                0x080053d0                _realloc_r
  .text._malloc_usable_size_r
-                0x0800517c       0x10 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
-                0x0800517c                _malloc_usable_size_r
+                0x0800542c       0x10 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
+                0x0800542c                _malloc_usable_size_r
  *(.glue_7)
- .glue_7        0x0800518c        0x0 linker stubs
+ .glue_7        0x0800543c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800518c        0x0 linker stubs
+ .glue_7t       0x0800543c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800518c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0800543c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0800518c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
-                0x0800518c                _init
- .init          0x08005190        0x8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800543c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
+                0x0800543c                _init
+ .init          0x08005440        0x8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08005198        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
-                0x08005198                _fini
- .fini          0x0800519c        0x8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
-                0x080051a4                        . = ALIGN (0x4)
-                0x080051a4                        _etext = .
+ .fini          0x08005448        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crti.o
+                0x08005448                _fini
+ .fini          0x0800544c        0x8 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+                0x08005454                        . = ALIGN (0x4)
+                0x08005454                        _etext = .
 
-.vfp11_veneer   0x080051a4        0x0
- .vfp11_veneer  0x080051a4        0x0 linker stubs
+.vfp11_veneer   0x08005454        0x0
+ .vfp11_veneer  0x08005454        0x0 linker stubs
 
-.v4_bx          0x080051a4        0x0
- .v4_bx         0x080051a4        0x0 linker stubs
+.v4_bx          0x08005454        0x0
+ .v4_bx         0x08005454        0x0 linker stubs
 
-.iplt           0x080051a4        0x0
- .iplt          0x080051a4        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08005454        0x0
+ .iplt          0x08005454        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x080051a4      0x7f8
-                0x080051a4                        . = ALIGN (0x4)
+.rodata         0x08005454      0x7f8
+                0x08005454                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x080051a4       0x1f CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .rodata        0x08005454       0x1f CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  *(.rodata*)
- *fill*         0x080051c3        0x1 
+ *fill*         0x08005473        0x1 
  .rodata.AHBPrescTable
-                0x080051c4       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x080051c4                AHBPrescTable
+                0x08005474       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x08005474                AHBPrescTable
  .rodata.APBPrescTable
-                0x080051d4        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x080051d4                APBPrescTable
+                0x08005484        0x8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x08005484                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x080051dc       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0800548c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x080051ec        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x080051ee        0x2 
+                0x0800549c        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x0800549e        0x2 
  .rodata.Font7x10
-                0x080051f0      0x76c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
+                0x080054a0      0x76c CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
  .rodata.Font_7x10
-                0x0800595c        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
-                0x0800595c                Font_7x10
+                0x08005c0c        0xc CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
+                0x08005c0c                Font_7x10
  .rodata._svfprintf_r.str1.1
-                0x08005968       0x33 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x08005c18       0x33 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
                                  0x11 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0800599b        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08005c4b        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
                                  0x22 (size before relaxing)
-                0x0800599c                        . = ALIGN (0x4)
- *fill*         0x0800599b        0x1 
+                0x08005c4c                        . = ALIGN (0x4)
+ *fill*         0x08005c4b        0x1 
 
-.ARM.extab      0x0800599c        0x0
-                0x0800599c                        . = ALIGN (0x4)
+.ARM.extab      0x08005c4c        0x0
+                0x08005c4c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800599c                        . = ALIGN (0x4)
+                0x08005c4c                        . = ALIGN (0x4)
 
-.ARM            0x0800599c        0x0
-                0x0800599c                        . = ALIGN (0x4)
-                0x0800599c                        __exidx_start = .
+.ARM            0x08005c4c        0x0
+                0x08005c4c                        . = ALIGN (0x4)
+                0x08005c4c                        __exidx_start = .
  *(.ARM.exidx*)
-                0x0800599c                        __exidx_end = .
-                0x0800599c                        . = ALIGN (0x4)
+                0x08005c4c                        __exidx_end = .
+                0x08005c4c                        . = ALIGN (0x4)
 
-.preinit_array  0x0800599c        0x0
-                0x0800599c                        . = ALIGN (0x4)
-                0x0800599c                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08005c4c        0x0
+                0x08005c4c                        . = ALIGN (0x4)
+                0x08005c4c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800599c                        PROVIDE (__preinit_array_end = .)
-                0x0800599c                        . = ALIGN (0x4)
+                0x08005c4c                        PROVIDE (__preinit_array_end = .)
+                0x08005c4c                        . = ALIGN (0x4)
 
-.init_array     0x0800599c        0x4
-                0x0800599c                        . = ALIGN (0x4)
-                0x0800599c                        PROVIDE (__init_array_start = .)
+.init_array     0x08005c4c        0x4
+                0x08005c4c                        . = ALIGN (0x4)
+                0x08005c4c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800599c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x080059a0                        PROVIDE (__init_array_end = .)
-                0x080059a0                        . = ALIGN (0x4)
+ .init_array    0x08005c4c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x08005c50                        PROVIDE (__init_array_end = .)
+                0x08005c50                        . = ALIGN (0x4)
 
-.fini_array     0x080059a0        0x4
-                0x080059a0                        . = ALIGN (0x4)
+.fini_array     0x08005c50        0x4
+                0x08005c50                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080059a0        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08005c50        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080059a4                        . = ALIGN (0x4)
-                0x080059a4                        _sidata = LOADADDR (.data)
+                0x08005c54                        . = ALIGN (0x4)
+                0x08005c54                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x080059a4        0x0
- .rel.iplt      0x080059a4        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08005c54        0x0
+ .rel.iplt      0x08005c54        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000       0x5c load address 0x080059a4
+.data           0x20000000      0x25c load address 0x08005c54
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -4451,30 +4518,34 @@ LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-e
                 0x20000008        0x1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                 0x20000008                uwTickFreq
  *fill*         0x20000009        0x3 
+ .data.auchCRCHi
+                0x2000000c      0x100 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .data.auchCRCLo
+                0x2000010c      0x100 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .data._impure_ptr
-                0x2000000c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
-                0x2000000c                _impure_ptr
+                0x2000020c        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x2000020c                _impure_ptr
  .data._impure_data
-                0x20000010       0x4c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
-                0x20000010                _impure_data
+                0x20000210       0x4c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x20000210                _impure_data
  *(.RamFunc)
  *(.RamFunc*)
-                0x2000005c                        . = ALIGN (0x4)
+                0x2000025c                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x2000005c        0x0 load address 0x08005a00
+                0x2000025c        0x0 load address 0x08005eb0
  .tm_clone_table
-                0x2000005c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x2000025c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
-                0x2000005c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
+                0x2000025c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x2000005c        0x0 load address 0x08005a00
- .igot.plt      0x2000005c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+.igot.plt       0x2000025c        0x0 load address 0x08005eb0
+ .igot.plt      0x2000025c        0x0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.tdata          0x2000005c        0x0 load address 0x08005a00
+.tdata          0x2000025c        0x0 load address 0x08005eb0
  *(.tdata .tdata.* .gnu.linkonce.td.*)
-                0x2000005c                        . = ALIGN (0x4)
-                0x2000005c                        _edata = .
+                0x2000025c                        . = ALIGN (0x4)
+                0x2000025c                        _edata = .
                 [!provide]                        PROVIDE (__data_end = .)
                 [!provide]                        PROVIDE (__tdata_end = .)
                 [!provide]                        PROVIDE (__tdata_start = ADDR (.tdata))
@@ -4488,11 +4559,11 @@ LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-e
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x2000005c        0x0 load address 0x08005a00
-                0x2000005c                        _sbss = .
-                0x2000005c                        __bss_start__ = _sbss
+.tbss           0x2000025c        0x0 load address 0x08005eb0
+                0x2000025c                        _sbss = .
+                0x2000025c                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
-                0x2000005c                        . = ALIGN (0x4)
+                0x2000025c                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__tbss_end = .)
                 [!provide]                        PROVIDE (__tbss_start = ADDR (.tbss))
                 [!provide]                        PROVIDE (__tbss_size = (__tbss_end - __tbss_start))
@@ -4505,65 +4576,65 @@ LOAD C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-e
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x2000005c      0x6a4 load address 0x08005a00
+.bss            0x2000025c      0x6a4 load address 0x08005eb0
  *(.bss)
  *(.bss*)
  .bss.completed.1
-                0x2000005c        0x1 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
- *fill*         0x2000005d        0x3 
- .bss.object.0  0x20000060       0x18 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
- .bss.uwTick    0x20000078        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x20000078                uwTick
+                0x2000025c        0x1 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x2000025d        0x3 
+ .bss.object.0  0x20000260       0x18 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtbegin.o
+ .bss.uwTick    0x20000278        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000278                uwTick
  .bss.irq_count
-                0x2000007c        0x4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
-                0x2000007c                irq_count
- .bss.hi2c1     0x20000080       0x54 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
-                0x20000080                hi2c1
- .bss.htim1     0x200000d4       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
-                0x200000d4                htim1
- .bss.htim2     0x2000011c       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
-                0x2000011c                htim2
- .bss.huart1    0x20000164       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
-                0x20000164                huart1
+                0x2000027c        0x4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+                0x2000027c                irq_count
+ .bss.hi2c1     0x20000280       0x54 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
+                0x20000280                hi2c1
+ .bss.htim1     0x200002d4       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+                0x200002d4                htim1
+ .bss.htim2     0x2000031c       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+                0x2000031c                htim2
+ .bss.huart1    0x20000364       0x48 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
+                0x20000364                huart1
  .bss.__sbrk_heap_end
-                0x200001ac        0x4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
+                0x200003ac        0x4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
  .bss.SSD1306_Buffer
-                0x200001b0      0x400 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
- .bss.SSD1306   0x200005b0        0x6 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
- *fill*         0x200005b6        0x2 
- .bss.__sf      0x200005b8      0x138 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
-                0x200005b8                __sf
- .bss.errno     0x200006f0        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
-                0x200006f0                errno
+                0x200003b0      0x400 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+ .bss.SSD1306   0x200007b0        0x6 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+ *fill*         0x200007b6        0x2 
+ .bss.__sf      0x200007b8      0x138 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x200007b8                __sf
+ .bss.errno     0x200008f0        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+                0x200008f0                errno
  .bss.__lock___malloc_recursive_mutex
-                0x200006f4        0x1 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
-                0x200006f4                __lock___malloc_recursive_mutex
- *fill*         0x200006f5        0x3 
+                0x200008f4        0x1 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x200008f4                __lock___malloc_recursive_mutex
+ *fill*         0x200008f5        0x3 
  .bss.__malloc_sbrk_start
-                0x200006f8        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x200006f8                __malloc_sbrk_start
+                0x200008f8        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200008f8                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x200006fc        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
-                0x200006fc                __malloc_free_list
+                0x200008fc        0x4 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x200008fc                __malloc_free_list
  *(COMMON)
-                0x20000700                        . = ALIGN (0x4)
-                0x20000700                        _ebss = .
-                0x20000700                        __bss_end__ = _ebss
+                0x20000900                        . = ALIGN (0x4)
+                0x20000900                        _ebss = .
+                0x20000900                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
                 [!provide]                        PROVIDE (__bss_start = __tbss_start)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000700      0x600 load address 0x08005a00
-                0x20000700                        . = ALIGN (0x8)
+                0x20000900      0x600 load address 0x08005eb0
+                0x20000900                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x20000700                        PROVIDE (_end = .)
-                0x20000900                        . = (. + _Min_Heap_Size)
- *fill*         0x20000700      0x200 
-                0x20000d00                        . = (. + _Min_Stack_Size)
- *fill*         0x20000900      0x400 
-                0x20000d00                        . = ALIGN (0x8)
+                0x20000900                        PROVIDE (_end = .)
+                0x20000b00                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000900      0x200 
+                0x20000f00                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000b00      0x400 
+                0x20000f00                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a:*(*)
@@ -4621,61 +4692,65 @@ LOAD linker stubs
  .ARM.attributes
                 0x000003c2       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
  .ARM.attributes
-                0x000003ef       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+                0x000003ef       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
  .ARM.attributes
-                0x0000041c       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x0000041c       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
  .ARM.attributes
-                0x00000439       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x00000449       0x2d CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
  .ARM.attributes
-                0x00000456       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+                0x00000476       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000473       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x00000493       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000490       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x000004b0       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x000004ad       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                0x000004cd       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x000004ca       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+                0x000004ea       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x000004f7       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
+                0x00000507       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x00000524       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
+                0x00000524       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
  .ARM.attributes
-                0x00000551       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x00000551       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
  .ARM.attributes
-                0x0000057e       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+                0x0000057e       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
  .ARM.attributes
-                0x000005ab       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
+                0x000005ab       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x000005d8       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+                0x000005d8       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
  .ARM.attributes
-                0x00000605       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x00000605       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-impure.o)
  .ARM.attributes
-                0x00000632       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+                0x00000632       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
  .ARM.attributes
-                0x0000065f       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+                0x0000065f       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x0000068c       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+                0x0000068c       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
  .ARM.attributes
-                0x000006b9       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+                0x000006b9       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
  .ARM.attributes
-                0x000006e6       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+                0x000006e6       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
  .ARM.attributes
-                0x00000713       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+                0x00000713       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
  .ARM.attributes
-                0x00000740       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000740       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
  .ARM.attributes
-                0x0000076d       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+                0x0000076d       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
  .ARM.attributes
-                0x0000079a       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+                0x0000079a       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x000007c7       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
+                0x000007c7       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
  .ARM.attributes
-                0x000007f4       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
+                0x000007f4       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
  .ARM.attributes
-                0x00000821       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
+                0x00000821       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
  .ARM.attributes
-                0x0000084e       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
+                0x0000084e       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x0000087b       0x2d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x000008a8       0x1d C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp/crtn.o
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -4718,10 +4793,14 @@ LOAD linker stubs
                                  0x46 (size before relaxing)
  .comment       0x00000045        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
                                  0x46 (size before relaxing)
+ .comment       0x00000045        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+                                 0x46 (size before relaxing)
  .comment       0x00000045        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
                                  0x46 (size before relaxing)
+ .comment       0x00000045        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+                                 0x46 (size before relaxing)
 
-.debug_info     0x00000000    0x10778
+.debug_info     0x00000000    0x10eed
  .debug_info    0x00000000      0x222 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_info    0x00000222     0x2524 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_info    0x00002746      0x704 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -4743,9 +4822,11 @@ LOAD linker stubs
  .debug_info    0x0000f018       0x30 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
  .debug_info    0x0000f048     0x1239 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
  .debug_info    0x00010281      0x2a4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
- .debug_info    0x00010525      0x253 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_info    0x00010525      0x154 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_info    0x00010679      0x253 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_info    0x000108cc      0x621 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
-.debug_abbrev   0x00000000     0x29fc
+.debug_abbrev   0x00000000     0x2c50
  .debug_abbrev  0x00000000      0x13f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_abbrev  0x0000013f      0x2a3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_abbrev  0x000003e2      0x201 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -4767,9 +4848,11 @@ LOAD linker stubs
  .debug_abbrev  0x00002448       0x24 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
  .debug_abbrev  0x0000246c      0x371 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
  .debug_abbrev  0x000027dd       0xcf CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
- .debug_abbrev  0x000028ac      0x150 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_abbrev  0x000028ac       0xae CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_abbrev  0x0000295a      0x150 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_abbrev  0x00002aaa      0x1a6 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
-.debug_aranges  0x00000000     0x1050
+.debug_aranges  0x00000000     0x1090
  .debug_aranges
                 0x00000000       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
@@ -4813,10 +4896,14 @@ LOAD linker stubs
  .debug_aranges
                 0x00001018       0x18 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
  .debug_aranges
-                0x00001030       0x20 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+                0x00001030       0x20 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_aranges
+                0x00001050       0x20 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_aranges
+                0x00001070       0x20 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
 .debug_rnglists
-                0x00000000      0xcc1
+                0x00000000      0xce8
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
@@ -4858,9 +4945,13 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000bf9       0xb4 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
  .debug_rnglists
-                0x00000cad       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+                0x00000cad       0x13 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_rnglists
+                0x00000cc0       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_rnglists
+                0x00000cd4       0x14 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
-.debug_macro    0x00000000    0x19225
+.debug_macro    0x00000000    0x1946e
  .debug_macro   0x00000000      0x1ad cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x000001ad      0xade cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x00000c8b       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -4946,9 +5037,11 @@ LOAD linker stubs
  .debug_macro   0x00018b9a      0x19b CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
  .debug_macro   0x00018d35       0x16 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
  .debug_macro   0x00018d4b      0x203 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
- .debug_macro   0x00018f4e      0x2d7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_macro   0x00018f4e       0x76 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_macro   0x00018fc4      0x2d7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_macro   0x0001929b      0x1d3 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
-.debug_line     0x00000000    0x14707
+.debug_line     0x00000000    0x1519b
  .debug_line    0x00000000      0x73b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_line    0x0000073b     0x3b69 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_line    0x000042a4      0x96f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -4959,66 +5052,72 @@ LOAD linker stubs
  .debug_line    0x00007c95     0x346f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_line    0x0000b104     0x180b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_line    0x0000c90f     0x2488 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000ed97      0x996 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
- .debug_line    0x0000f72d      0x6d7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000fe04      0x726 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
- .debug_line    0x0001052a      0x7b7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
- .debug_line    0x00010ce1      0x733 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
- .debug_line    0x00011414      0x7cb CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00011bdf      0x6bd CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0001229c      0x351 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
- .debug_line    0x000125ed       0x78 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
- .debug_line    0x00012665     0x10c7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
- .debug_line    0x0001372c      0x760 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
- .debug_line    0x00013e8c      0x87b CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_line    0x0000ed97      0x994 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+ .debug_line    0x0000f72b      0x6d7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
+ .debug_line    0x0000fe02      0x726 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
+ .debug_line    0x00010528      0x7b7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+ .debug_line    0x00010cdf      0x733 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
+ .debug_line    0x00011412      0x7cb CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00011bdd      0x6bd CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0001229a      0x351 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x000125eb       0x78 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x00012663     0x10c7 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+ .debug_line    0x0001372a      0x760 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
+ .debug_line    0x00013e8a      0x33e CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_line    0x000141c8      0x87b CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_line    0x00014a43      0x758 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
 
-.debug_str      0x00000000    0x8dcc3
- .debug_str     0x00000000    0x8dcc3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+.debug_str      0x00000000    0x8ddf7
+ .debug_str     0x00000000    0x8ddf7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
                               0x850ff (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
                               0x861c6 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x85832 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x8552e (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x85485 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                               0x854a8 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x8577e (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                               0x86530 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                               0x85d3c (size before relaxing)
- .debug_str     0x0008dcc3        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x0008ddf7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x85b9f (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/main.c.obj
                               0x88ca1 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/gpio.c.obj
                               0x85453 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/i2c.c.obj
                               0x85606 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/tim.c.obj
                               0x85a08 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/usart.c.obj
                               0x858af (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_it.c.obj
                               0x8586f (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x850d4 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
                                0x7149 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/startup_stm32f103xb.s.obj
                                  0xb4 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
                               0x8901e (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306_fonts.c.obj
                               0x856d9 (size before relaxing)
- .debug_str     0x0008dcc3        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+                               0x419a (size before relaxing)
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
                               0x885f7 (size before relaxing)
+ .debug_str     0x0008ddf7        0x0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+                              0x85521 (size before relaxing)
 
-.debug_frame    0x00000000     0x4a9c
+.debug_frame    0x00000000     0x4b0c
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_frame   0x00000058      0xc84 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_frame   0x00000cdc      0x334 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -5038,31 +5137,33 @@ LOAD linker stubs
  .debug_frame   0x00003e94       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_frame   0x00003ecc       0x34 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/sysmem.c.obj
  .debug_frame   0x00003f00      0x3e0 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/ssd1306/Src/ssd1306.c.obj
- .debug_frame   0x000042e0       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
- .debug_frame   0x00004318       0xac C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000043c4       0x50 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00004414       0x24 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x00004438       0x4c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00004484       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x000044bc       0x24 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x000044e0      0x144 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
- .debug_frame   0x00004624       0x7c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
- .debug_frame   0x000046a0       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
- .debug_frame   0x000046c8       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_frame   0x000046e8       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
- .debug_frame   0x00004720       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
- .debug_frame   0x00004740       0x2c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
- .debug_frame   0x0000476c       0xb0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
- .debug_frame   0x0000481c       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x00004844       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
- .debug_frame   0x0000487c       0x50 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
- .debug_frame   0x000048cc       0x30 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
- .debug_frame   0x000048fc       0x90 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
- .debug_frame   0x0000498c       0x60 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x000049ec       0x2c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x00004a18       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
- .debug_frame   0x00004a40       0x3c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
- .debug_frame   0x00004a7c       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
+ .debug_frame   0x000042e0       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/mb_crc16.c.obj
+ .debug_frame   0x00004318       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Core/Src/ssd1306_temp_and_humidity_display.c.obj
+ .debug_frame   0x00004350       0x38 CMakeFiles/MASTER-MODBUS-RTU-STM32F103CBT6.dir/Components/modbus-rtu/Src/master_func_03.c.obj
+ .debug_frame   0x00004388       0xac C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00004434       0x50 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00004484       0x24 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x000044a8       0x4c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000044f4       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000452c       0x24 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00004550      0x144 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00004694       0x7c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-snprintf.o)
+ .debug_frame   0x00004710       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00004738       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00004758       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reent.o)
+ .debug_frame   0x00004790       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x000047b0       0x2c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x000047dc       0xb0 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-lock.o)
+ .debug_frame   0x0000488c       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000048b4       0x38 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-freer.o)
+ .debug_frame   0x000048ec       0x50 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x0000493c       0x30 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-mlock.o)
+ .debug_frame   0x0000496c       0x90 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x000049fc       0x60 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00004a5c       0x2c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00004a88       0x28 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+ .debug_frame   0x00004ab0       0x3c C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x00004aec       0x20 C:/Users/anvu8/Coding/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-msizer.o)
 
 .debug_line_str
                 0x00000000      0x16f

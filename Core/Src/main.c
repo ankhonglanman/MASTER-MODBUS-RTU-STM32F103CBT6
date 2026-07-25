@@ -109,10 +109,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
     SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
-    __WFI(); 
+
+    __WFI();
+
     SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk;
+    /* USER CODE END WHILE */
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -159,16 +162,21 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 volatile uint32_t irq_count = 0; 
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
     if (htim->Instance == TIM1)
     {   
       irq_count++;
+
       HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2); 
+
       master_func_03(0x01, 0x03, 0x0000, 0x0002);
+
       ssd1306_temp_and_humidity_display(irq_count * 0.1, uwTick * 0.1);
     }
   }
+
 /* USER CODE END 4 */
 
 /**
