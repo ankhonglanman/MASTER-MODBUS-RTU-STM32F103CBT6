@@ -6,7 +6,6 @@ void ssd1306_temp_and_humidity_display(float temperature, float humidity)
 
     ssd1306_Fill(Black);
 
-    temperature -= 0.1; 
     int temp_int = (int)temperature;
     int temp_dec = (int)((temperature - temp_int) * 10);
     if (temp_dec < 0) temp_dec = -temp_dec;

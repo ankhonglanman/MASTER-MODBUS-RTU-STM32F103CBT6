@@ -108,6 +108,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_Base_Start_IT(&htim1);
+  ssd1306_Init();
 
   /* USER CODE END 2 */
 
@@ -115,28 +116,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /*
-    uint8_t frame[8];
-    frame[0] = 0x00;
-    frame[1] = 0x03;
-    frame[2] = 0x00; 
-    frame[3] = 0x00;        
-    frame[4] = 0x00; 
-    frame[5] = 0x02;        
-
-    uint16_t crc = mb_crc16(frame, 6);
-    frame[6] = crc & 0xFF;                  
-    frame[7] = (crc >> 8) & 0xFF;           
-
-    HAL_UART_Transmit(&huart1, frame, sizeof(frame), 12);
-
-    HAL_UART_Receive_DMA(&huart1, received_frame, 9);
-
-    HAL_Delay(10000); 
-    */ 
-
-    //master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
-
     SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
 
     __WFI();
@@ -189,11 +168,6 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-//volatile uint32_t irq_count = 0; 
-
-//volatile uint8_t received_frame[9];
-
-//volatile Sensor_Data_t es35;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
@@ -201,11 +175,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     {   
       irq_count++;
 
-      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2); //using to noti if interrupt happen
-
       master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
-
-      //ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
     }
   }
 
@@ -214,7 +184,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     if (huart->Instance == USART1)   
     {
         es35 = read_val(received_frame, sizeof(received_frame));
-        
+
         ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
     }
 }

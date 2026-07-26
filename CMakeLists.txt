@@ -33,7 +33,6 @@ enable_language(C ASM)
 
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME}
-    Components/modbus-rtu/Src/read_val.c
 
     )
 
@@ -54,6 +53,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Components/modbus-rtu/Src/mb_crc16.c
     Components/ssd1306/Src/ssd1306_temp_and_humidity_display.c
     Components/modbus-rtu/Src/master_func_03.c
+    Core/Src/read_val.c
 )
 
 # Add include paths
