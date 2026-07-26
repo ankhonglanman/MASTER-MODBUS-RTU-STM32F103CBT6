@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "i2c.h"
 #include "tim.h"
 #include "usart.h"
@@ -31,6 +32,7 @@
 #include "ssd1306_tests.h"
 #include "ssd1306_temp_and_humidity_display.h"
 #include "master_func_03.h"
+#include "read_val.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -62,7 +64,11 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+volatile uint32_t irq_count = 0; 
 
+volatile uint8_t received_frame[9];
+
+volatile Sensor_Data_t es35;
 /* USER CODE END 0 */
 
 /**
@@ -73,7 +79,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -94,11 +100,11 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_I2C1_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_USART1_UART_Init();
-  ssd1306_Init();
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_Base_Start_IT(&htim1);
@@ -109,13 +115,35 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    /*
+    uint8_t frame[8];
+    frame[0] = 0x00;
+    frame[1] = 0x03;
+    frame[2] = 0x00; 
+    frame[3] = 0x00;        
+    frame[4] = 0x00; 
+    frame[5] = 0x02;        
+
+    uint16_t crc = mb_crc16(frame, 6);
+    frame[6] = crc & 0xFF;                  
+    frame[7] = (crc >> 8) & 0xFF;           
+
+    HAL_UART_Transmit(&huart1, frame, sizeof(frame), 12);
+
+    HAL_UART_Receive_DMA(&huart1, received_frame, 9);
+
+    HAL_Delay(10000); 
+    */ 
+
+    //master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
+
     SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
 
     __WFI();
 
     SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk;
     /* USER CODE END WHILE */
-    
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -161,7 +189,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-volatile uint32_t irq_count = 0; 
+//volatile uint32_t irq_count = 0; 
+
+//volatile uint8_t received_frame[9];
+
+//volatile Sensor_Data_t es35;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
@@ -169,13 +201,21 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     {   
       irq_count++;
 
-      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2); 
+      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_2); //using to noti if interrupt happen
 
-      master_func_03(0x01, 0x03, 0x0000, 0x0002);
+      master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
 
-      ssd1306_temp_and_humidity_display(irq_count * 0.1, uwTick * 0.1);
+      ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
     }
   }
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1)   
+    {
+        es35 = read_val(received_frame, sizeof(received_frame));
+    }
+}
 
 /* USER CODE END 4 */
 

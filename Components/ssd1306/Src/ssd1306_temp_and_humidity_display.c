@@ -9,7 +9,7 @@ void ssd1306_temp_and_humidity_display(float temperature, float humidity)
     temperature -= 0.1; 
     int temp_int = (int)temperature;
     int temp_dec = (int)((temperature - temp_int) * 10);
-    if (temp_dec < 0) temp_dec = -temp_dec;  // tránh số âm bị lệch dấu
+    if (temp_dec < 0) temp_dec = -temp_dec;
     snprintf(buffer, sizeof(buffer), "Temp: %d.%d C", temp_int, temp_dec);
     ssd1306_SetCursor(30, 10);
     ssd1306_WriteString(buffer, Font_7x10, White);
