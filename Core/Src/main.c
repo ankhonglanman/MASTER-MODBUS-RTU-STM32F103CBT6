@@ -205,7 +205,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
       master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
 
-      ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
+      //ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
     }
   }
 
@@ -214,6 +214,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     if (huart->Instance == USART1)   
     {
         es35 = read_val(received_frame, sizeof(received_frame));
+        
+        ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
     }
 }
 
