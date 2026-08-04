@@ -33,6 +33,7 @@
 #include "ssd1306_temp_and_humidity_display.h"
 #include "modbus.h"
 #include "read_val.h"
+#include "application.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -42,7 +43,11 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define SLAVE_ID            0x01 
+#define FUNCTION_CODE       0x03
+#define START_ADDRESS       0x0000
+#define NUM_REGISTERS       0x0002
+#define RECEIVED_FRAME_SIZE 9
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -116,11 +121,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
-
-    __WFI();
-
-    SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk;
+    Deep_Sleep();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -175,7 +176,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     {   
       irq_count++;
 
-      master_func_03(0x01, 0x03, 0x0000, 0x0002, received_frame, sizeof(received_frame));
+      master_func_03(SLAVE_ID, FUNCTION_CODE, START_ADDRESS, NUM_REGISTERS, received_frame, sizeof(received_frame));
     }
   }
 

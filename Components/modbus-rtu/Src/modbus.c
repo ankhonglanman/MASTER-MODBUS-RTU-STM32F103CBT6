@@ -22,7 +22,7 @@
 
 // Function 01 - Read Coils
 
-typedef struct mbFrame 
+// typedef struct mbFrame 
 typedef struct mbFrame01{
     uint8_t  slave_address : SLAVE_ADDRESS_BIT_LENGTH;
     uint8_t  function_code : FUNCTION_CODE_BIT_LENGTH;

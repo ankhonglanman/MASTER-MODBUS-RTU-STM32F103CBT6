@@ -54,6 +54,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Components/ssd1306/Src/ssd1306_temp_and_humidity_display.c
     Components/modbus-rtu/Src/modbus.c
     Components/es35/Src/read_val.c
+    Application/Src/application.c
 )
 
 # Add include paths
