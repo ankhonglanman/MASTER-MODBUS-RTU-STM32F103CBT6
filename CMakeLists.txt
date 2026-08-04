@@ -52,16 +52,17 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Components/ssd1306/Src/ssd1306_fonts.c
     Components/modbus-rtu/Src/mb_crc16.c
     Components/ssd1306/Src/ssd1306_temp_and_humidity_display.c
-    Components/modbus-rtu/Src/master_func_03.c
-    Core/Src/read_val.c
+    Components/modbus-rtu/Src/modbus.c
+    Components/es35/Src/read_val.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
-    Components/es35-sw/Inc
+    Components/es35/Inc
     Components/ssd1306/Inc
     Components/modbus-rtu/Inc
+    Application/Inc
 )
 
 # Add project symbols (macros)
