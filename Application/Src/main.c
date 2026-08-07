@@ -48,6 +48,8 @@
 #define START_ADDRESS       0x0000
 #define NUM_REGISTERS       0x0002
 #define RECEIVED_FRAME_SIZE 9
+#define TRUE                1
+#define FALSE               0
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -69,11 +71,18 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-volatile uint32_t irq_count = 0; 
+// volatile uint32_t irq_count = 0; 
 
-volatile uint8_t received_frame[9];
+// volatile uint8_t received_frame[RECEIVED_FRAME_SIZE];
 
-volatile Sensor_Data_t es35;
+static uint8_t received_frame[RECEIVED_FRAME_SIZE]; 
+
+static Sensor_Data_t es35;
+
+static bool rx_cplt = FALSE; 
+
+static bool timer_cplt = FALSE;
+
 /* USER CODE END 0 */
 
 /**
@@ -121,7 +130,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    Deep_Sleep();
+    if(timer_cplt){
+      master_func_03(SLAVE_ID, FUNCTION_CODE, START_ADDRESS, NUM_REGISTERS, received_frame, sizeof(received_frame));
+    }
+    else if (rx_cplt){
+      es35 = read_val(received_frame, sizeof(received_frame));
+
+      ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
+    }
+    else{
+      Deep_Sleep();
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -174,9 +193,13 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
     if (htim->Instance == TIM1)
     {   
-      irq_count++;
+
+      timer_cplt = TRUE;
+      /*
+      // irq_count++;
 
       master_func_03(SLAVE_ID, FUNCTION_CODE, START_ADDRESS, NUM_REGISTERS, received_frame, sizeof(received_frame));
+      */
     }
   }
 
@@ -184,9 +207,12 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == USART1)   
     {
+        rx_cplt = TRUE;
+        /*
         es35 = read_val(received_frame, sizeof(received_frame));
 
         ssd1306_temp_and_humidity_display(es35.temp, es35.humid);
+        */
     }
 }
 

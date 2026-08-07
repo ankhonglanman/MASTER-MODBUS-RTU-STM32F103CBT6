@@ -10,7 +10,7 @@
 #define     FUNCTION_06_FRAME_LENGTH        (8)
 #define     FUNCTION_15_FRAME_LENGTH        (8) /* variable length */ 
 #define     FUNCTION_16_FRAME_LENGTH        (8) /* variable length */
-#define     LOW_BYTE_OFFSET                 (8) /* Low byte offset to */
+#define     HIGH_BYTE_OFFSET                (8) /* high byte offset to */
 #define     SLAVE_ADDRESS_BIT_LENGTH        (8)
 #define     FUNCTION_CODE_BIT_LENGTH        (8)
 #define     START_ADDRESS_BIT_LENGTH        (16)
@@ -19,6 +19,8 @@
 #define     NUMBER_OF_INPUT_BIT_LENGTH      (16)
 #define     CRC_BIT_LENGTH                  (16)    
 #define     BYTE_COUNT_BIT_LENGTH           (8)
+#define     BYTE_MASK                       (0xFF)
+#define     SWAP_BYTE(x)                    ((uint16_t)__REV16((uint16_t)(x)))
 
 // Function 01 - Read Coils
 
@@ -114,27 +116,16 @@ typedef struct mbFrame16{
 }mbFrame16_t;
 
 void master_func_03(uint8_t slave_address, uint8_t function_code, uint16_t start_address, uint16_t num_registers, volatile uint8_t *pFrame, uint8_t pLen){
-    uint8_t frame[FUNCTION_03_FRAME_LENGTH];
-    frame[0] = slave_address;
-    frame[1] = function_code;
-    frame[2] = (start_address >> 8) & 0xFF; 
-    frame[3] = start_address & 0xFF;        
-    frame[4] = (num_registers >> 8) & 0xFF; 
-    frame[5] = num_registers & 0xFF;        
+    mbFrame03_t *send_frame;
+    send_frame->slave_address = slave_address;
+    send_frame->function_code = function_code;
+    send_frame->start_address = SWAP_BYTE(start_address); //STM32 using little endian, but MODBUS using big endian         
+    send_frame->num_registers = SWAP_BYTE(num_registers);
 
-    uint16_t crc = mb_crc16(frame, 6);
-    frame[6] = (crc >> LOW_BYTE_OFFSET) & 0xFF;                  
-    frame[7] = crc & 0xFF;
+    mb_crc_t crc = mb_crc16((byte_t*)&send_frame, (sizeof(send_frame) - 2)); //minus 2 byte of crc
+    send_frame->crc           = SWAP_BYTE(crc); 
 
-    /*
-        In MODBUS-RTU, the CRC is Low to High, but others byte is High to Low
-    */
-    
-    /*
-    frame[6] = 0xc4;
-    frame[7] = 0x0b;
-    */
-    HAL_UART_Transmit(&huart1, frame, sizeof(frame), 12);
+    HAL_UART_Transmit(&huart1, (byte_t*)&send_frame, sizeof(send_frame), 12);
 
     HAL_UART_Receive_DMA(&huart1, pFrame, pLen);
 }

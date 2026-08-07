@@ -42,7 +42,7 @@ static uint8_t auchCRCLo[] = {
 0x40
 };
 
-uint16_t mb_crc16(const uint8_t *data, size_t len) {
+mb_crc_t mb_crc16(const uint8_t *data, size_t len) {
     
     uint8_t crcHi = 0xFF;
     uint8_t crcLo = 0xFF;
